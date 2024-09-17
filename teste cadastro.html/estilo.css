@@ -1,0 +1,16 @@
+ *{font-family:'times new roman',times,serif;}
+
+ .caixa{
+    display: grid;
+    grid-template-areas: "head head","main aside","ooter fotter";
+    grid-template-columns:3fr 1rf;
+    grid-template-rows:30vh 60vh 10vh;
+ }
+
+head{background-color: black;}
+
+main{background-color: bisque;}
+
+aside{background-color: blue;}
+
+footer{background-color: blueviolet;}
