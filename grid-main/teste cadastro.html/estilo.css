@@ -1,0 +1,22 @@
+ *{font-family:'times new roman',times,serif;
+margin: 0%;}
+ .caixa{
+    display: grid;
+    grid-template-areas: "h h" "m a"
+    "f f";
+    grid-template-columns:3fr 1rf;
+    grid-template-rows:30vh 60vh 10vh;
+ }
+
+ header{background-color:rgb(90, 86, 86);
+         background-image: url("bor.jpg");
+         grid-area: h;}
+
+ main{background-color: yellow;
+         grid-area: m;}
+
+ aside{background-color: blue;
+         grid-area: a;}
+
+ footer{background-color: blueviolet;
+         grid-area: f;}
