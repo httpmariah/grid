@@ -1,0 +1,73 @@
+*{font-family:'times new roman',times,serif;
+    margin: 0%;}
+     .caixa{
+        display: grid;
+        grid-template-areas: "h h" "m a"
+        "f f";
+        grid-template-columns:3fr 1rf;
+        grid-template-rows:30vh 60vh 10vh;
+     }
+    
+     header{background-color:rgb(90, 86, 86);
+             background-image: url("bor.jpg");
+             background-repeat: no-rapet;
+             grid-area: h;}
+    
+     main{background-color: yellow;
+             grid-area: m;}
+    
+     aside{background-color: blue;
+             grid-area: a;}
+    
+     footer{background-color: blueviolet;
+             grid-area: f;}
+
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.titu{
+    background-color: goldenrod;
+}
+
+/*conteiner*/
+.conteiner{
+    max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+/*aparencia*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+}
+
+.ul li{
+    margin: 0 35px;
+    font-size: 15px;
+}
+
+.ul li a{
+    color: black;
+}
